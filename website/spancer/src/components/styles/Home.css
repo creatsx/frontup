@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+.home {
+    color: white;
+    font-family: 'Mate SC', serif;
+}
+
+.home__left {
+    background: rgba(255, 255, 255, 0.2);
+    margin-top:8rem;
+    margin-left:20rem;
+    position: absolute;
+    display: inline-block;
+    padding: 5rem 2rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.home__left > button {
+    margin-top: 2rem;
+}
+
+
