@@ -1,62 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
 .footer {
     color: white;
-    height: 10vh;
-   
+    height: 65vh;
+    background-color: #0a010a;
     text-align: center;
-    bottom:10px;
-}
-.fa {
-    color:white; 
-    text-decoration: none;
-    font-size: 30px;
-    margin: 12px 15px;
-  
-}
-
-.fa > p {
-  display: none;
-}
-
-.fa-twitter {
-
-    color: #55ACEE;
+    font-family: 'Mate SC', serif; 
+    bottom: 0;
+    position: relative;
   }
 
-  
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-
-  
-.fa-instagram {
-    color: greenyellow;
-  }
-
-
-
-
-@media (min-width:300px){
-   .footer__item  > h1{
-      font-size: 14px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      
-    }
-   .fa{
-      font-size: 15px;
-
-    }
-}
-@media (min-width:400px){
-    .footer__item > h1 {
-      font-size: 17px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+.footer__item {
+  display: flex;
+  justify-content: space-between;
+  font-family:'Baloo 2',cursive;  
 }
 
-@media (min-width:500px){
-  .footer__item > h1 {
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+.footer__company{
+  margin-top: 4rem;
+  margin-left: 5rem;
+
+}
+
+.footer__company > a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  font-weight: 200;
+  color: white;
+  margin-top:20vh;
+}
+
+.footer__company > a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color:rgb(9, 116, 238);
+}
+
+.footer__contact {
+  margin-top: 4rem;
+}
+
+.footer__contact > a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+
+.footer__contact > a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color:rgb(9, 116, 238);
+}
+
+
+.footer__subscribe{
+  margin-top: 4rem;
+  margin-right: 5rem;
+}
+
+.footer__tc {
+  font-family: 'Baloo 2', cursive;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.footer__tc:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(9, 116, 238);
+}
+
+.footer__ppolicy {
+  font-family: 'Baloo 2', cursive;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.footer__ppolicy:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(9, 116, 238);
+}
+.footer__cookie {
+  font-family: 'Baloo 2', cursive;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.footer__cookie:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(9, 116, 238);
+} 
+
+.footer__form{
+  color: black;
+  font-size: large;
+  border: transparent !important;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: white;
 }
