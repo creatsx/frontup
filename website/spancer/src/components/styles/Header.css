@@ -32,8 +32,15 @@
     font-family: 'Baloo 2';
 }
 
-.header__left > h2 {
+.header__leftH2 {
     cursor:pointer;
+    color: white;
+    cursor: pointer;
+}
+.header__leftH2:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .header__leftlinks {

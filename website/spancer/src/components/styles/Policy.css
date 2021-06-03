@@ -1,0 +1,23 @@
+.privacyPolicy {
+    width: 100vw;
+    height: 100vh;
+}
+
+.privacyPolicy > h3 {
+    color: white;
+    text-align: center;
+
+}
+
+.cookiePolicy {
+    margin-top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(25, 2, 41);
+}
+
+.cookiePolicy > h3 {
+    color: white;
+    text-align: center;
+    margin-top: 20vh;
+}

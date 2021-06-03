@@ -1,10 +1,11 @@
 import React from 'react';
-import "../styles/tc.css";
+import "../styles/Tc.css";
+
 
 function TermConditions() {
     return (
-        <div className="termof__use" >
-            <h3>Terms and Conditions</h3>
+        <div className="tc" >
+          <h3>Term of Use</h3>
         </div>
     )
 }

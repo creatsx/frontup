@@ -40,7 +40,7 @@ function Mission() {
                    <br />
                 Spancer keep it's user's,
                    <br />
-                   identity annoymous.
+                   identity anonymous.
                    </p>
                </div>
             </div>

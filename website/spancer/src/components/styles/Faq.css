@@ -1,0 +1,10 @@
+.faq {
+    margin-top: 14vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.faq > h1 {
+    color: white;
+    text-align: center;
+}

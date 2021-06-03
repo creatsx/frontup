@@ -1,0 +1,10 @@
+.team {
+    width: 100vw;
+    margin-top: 14vh;
+    height: 100vh;
+}
+
+.team > h2 {
+    text-align: center;
+    color: white;
+}

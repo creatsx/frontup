@@ -12,14 +12,16 @@ function Footer() {
             <div className="footer__item">
               <div className="footer__company">
                     <h2>Company</h2>
-                          <a href="/about"><p>About</p></a>
-                          <a href="/team"><p>Team</p></a>
-                    <p className="footer__copyright">Copyright © Spancer. All rights reserved. </p>
+                          <Link to="/about"><p>About</p></Link>
+                          <Link to="/team"><p>Team</p></Link>
+                          <Link to="/faq"><p>FAQs</p></Link>
+                   
               </div>
               <div className="footer__contact">
                  <h2>Contact</h2>
-                 <a href="#"><p>Central Park, New Delhi, 112028</p></a>
-                 <a href="#"><p>spancerapp@spancer.com</p></a>
+                  <p>Central Park, New Delhi, 112028</p>
+                  <p>spancerapp@spancer.com</p>
+                 <p className="footer__copyright">Copyright © Spancer. All rights reserved. </p>
               </div>
               <div className="footer__subscribe">
               <h5>Subscribe Us</h5>

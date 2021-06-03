@@ -1,0 +1,10 @@
+.about {
+   width: 100vw;
+   height: 100vh;
+   margin-top: 14vh;   
+}
+
+.about__head {
+    color: white;
+    text-align: center;
+}
