@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.mission__section {
+    background-color: rgb(32, 19, 56);
+    width: 100vw;
+    height: 80vh;
+    color: aliceblue;
+    font-family: 'Mate SC', serif;
+    text-align: center;
+}
+.mission__section > h1 {
+    text-align: center;
+}
+.mission {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card__ideas {
+    margin-left: 5rem;
+}
+.card__future {
+    margin-right: 5rem;
+}

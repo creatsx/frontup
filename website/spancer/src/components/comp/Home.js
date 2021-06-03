@@ -1,24 +1,29 @@
 import React from 'react'
 import "../styles/Home.css";
-import {Button} from "@material-ui/core";
+import app from "../../static/phone.png"
+import ScrollAnimation from "react-animate-on-scroll"
+
 
 export default function Home() {
     return (
         <div className="home">
+            <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
             <div className="home__left" >
                 <h2>Building Economy of Ideas</h2>
                 <p>
-                    Speaking Your Mind, Annoymous Social Media Networks for College Campuses
+                    Join Spancer, Annoymous Social Media Network for College Students.
                     <br />
-                    or
+                    And 
                     <br />
-                    Virutal Campus of Your College                     
+                   Build genuine relations on foundation of visions and ideas.                      
                 </p>
-                <Button color="default" variant="contained" >Download Spancer App</Button>
+                <button className="home__leftbtn">
+                    <p>Download Spancer App!</p></button>
             </div>
             <div className="home__right">
-
+                  <img src={app} alt="app" /> 
             </div>
+           </ScrollAnimation>                
         </div>
     )
 }

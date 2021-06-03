@@ -3,7 +3,7 @@
 
 .footer {
     color: white;
-    height: 65vh;
+    height: 45vh;
     background-color: #0a010a;
     text-align: center;
     font-family: 'Mate SC', serif; 
@@ -32,7 +32,7 @@
 .footer__copyright {
   font-weight: 200;
   color: white;
-  margin-top:20vh;
+  margin-top:6vh;
 }
 
 .footer__company > a:hover{
@@ -105,5 +105,6 @@
   border: transparent !important;
   border-radius: 12px;
   padding: 10px;
+  width: 20rem;
   background-color: white;
 }

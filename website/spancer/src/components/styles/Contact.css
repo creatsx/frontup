@@ -1,0 +1,46 @@
+.contact__section {
+    height: 120vh;
+    width: 100vw;
+    margin-top: 0;
+    background:  #221e29 ;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__sectionHeading {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.customCard {
+    background-color: #221e29 !important;
+}
+
+.contact__left > img {
+    margin-top: 10vh;
+    height: 80vh;
+    width: 40vw;
+    animation: anime4 1s ease-in;
+} 
+
+@keyframes anime4 {
+    0%{
+        margin-top:20vh;
+    }
+    100%{
+        margin-top: 10vh;
+    }
+}
+
+
+.contact__right {
+    margin-top: 5rem;
+    margin-right: 100px;
+    color: white;
+    font-family: 'baloo 2', cursive;
+}
+
+
