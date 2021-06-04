@@ -25,13 +25,12 @@
 
 .home__leftbtn {
    background-color: rgb(255, 255, 255);
-   border: 2px solid black;
+   border: 2px solid rgba(0, 0, 0, 0.1);
    border-radius: 25px;
    width: 15rem;
    align-items: center;
    margin-top: 2rem;
    margin-left: 2rem;
-   box-shadow: 0 .1px .1px 0 rgba(255,255,255,0.8), 0 0.1px  0 rgba(255,255,255,.9);
 }
 .home__leftBtnP{
     color: black;
@@ -47,7 +46,6 @@
 .home__leftBtnP:hover{
     cursor: pointer;
     text-decoration: none;
-    margin-bottom:1.2rem;
 } 
 
 .home__right > img {
