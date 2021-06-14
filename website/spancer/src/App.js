@@ -7,7 +7,6 @@ import Home from "./components/pages/Home";
 import Footer from "./components/comp/Footer";
 import Policies from './components/pages/Policies';
 import About from "./components/pages/About";
-import Team from "./components/pages/Team";
 import FAQ from "./components/pages/FAQ";
 
 function App() {
@@ -22,9 +21,6 @@ function App() {
            </Route>
            <Route path="/about">
              <About />
-           </Route>
-           <Route path="/team">
-             <Team />
            </Route>
          <Route path="/policies">
                <Policies />

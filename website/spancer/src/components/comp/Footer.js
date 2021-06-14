@@ -13,7 +13,6 @@ function Footer() {
               <div className="footer__company">
                     <h2>Company</h2>
                           <Link to="/about"><p>About</p></Link>
-                          <Link to="/team"><p>Team</p></Link>
                           <Link to="/faq"><p>FAQs</p></Link>
                    
               </div>
