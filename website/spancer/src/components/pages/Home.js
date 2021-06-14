@@ -14,11 +14,11 @@ export default function Home() {
             <div className="home__left" >
                 <h2>Building Economy of Ideas</h2>
                 <p>
-                    Join Spancer, Anonymous Social Media Network for College Students.
+                    Join Spancer, Anonymous Discussion Plateform for localised Communities.
                     <br />
-                    And 
+                    Speak Your Ideas 
                     <br />
-                   Build genuine relations on foundation of visions and ideas.                      
+                    Be fledged , Be Transparent , Be Anonymous.                      
                 </p>
                 <button className="home__leftbtn">
                 <a href="https://play.google.com/store" alt="android app"><p className="home__leftBtnP">Download Spancer App!</p></a></button>
