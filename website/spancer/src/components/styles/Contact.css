@@ -43,4 +43,66 @@
     font-family: 'baloo 2', cursive;
 }
 
+@media screen and (max-width: 500px){
+    .contact__section{
+       height: 160vh;
+       width: 100vw;
+       margin-top: 0;
+       background:  #221e29 ;
+       text-align: center;
+    }
+    .contact {
+        display: inline-block;
+    }
+    .contact__left >img {
+        margin-top: 5vh;
+        height: 50vh;
+        width: 80vw;
+        animation: anime4 1s ease-in;
+    }
+    .contact__sectionHeading {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    }
+    .customCard {
+        background-color: #221e29 !important;
+    }
+    .contact__right{
+        margin-right: 1rem;
+    }
+
+}
+
+
+@media  screen and (max-width: 400px) {
+    .contact__section {
+        height: 180vh;
+        width: 100vw;
+        margin-top: 0;
+        background:  #221e29 ;
+        text-align: center;
+    }
+    
+    .contact {
+        display: inline-block;
+    }
+    .contact__left > img {
+        margin-top: 5vh;
+        height: 50vh;
+        width: 80vw;
+        animation: anime4 1s ease-in;
+    } 
+    .contact__right{
+        margin-right: 1rem;
+    }
+    .contact__sectionHeading {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    }
+    .customCard {
+        background-color: #221e29 !important;
+        
+    }
+}
+
 

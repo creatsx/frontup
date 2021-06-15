@@ -3,16 +3,24 @@ body {
 }
 .app {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(25, 2, 41);
     background-size: cover;   
+}
+
+.app__links {
+    width: 100vw;
 }
 
 @media screen and (max-width: 400px) {
     .app {
         height: 100vh;
-        width: 100vw;
+        width: 100ww;
         background-color: rgb(25,2, 41);
         background-size: cover;
+    }
+    .app__links{
+        width: 100vw;
+        background-color:rgb(25, 2, 41) ;
     }
 }

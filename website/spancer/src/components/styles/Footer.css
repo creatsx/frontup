@@ -3,6 +3,7 @@
 
 .footer {
     color: white;
+    width: 100%;
     height: 45vh;
     background-color: #0a010a;
     text-align: center;
@@ -14,7 +15,8 @@
 .footer__item {
   display: flex;
   justify-content: space-between;
-  font-family:'Baloo 2',cursive;  
+  font-family:'Baloo 2',cursive;
+  background-color: #0a010a;  
 }
 
 .footer__company{
@@ -110,4 +112,120 @@
 
 .footer__form:focus{
   border: transparent !important;
+}
+
+.footer__last {
+  background-color: #0a010a;
+  color: white;
+  font-size: 1rem;
+}
+.footer__last > a {
+  color: wheat;
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    color: white;
+    width: 100vw;
+    height: 45vh;
+    background-color: #0a010a;
+    text-align: center;
+    font-family: 'Mate SC', serif; 
+    bottom: 0;
+    position: relative;
+  }
+  .footer__item {
+    display: inline-block;
+    /*justify-content: space-between;*/
+    font-family:'Baloo 2',cursive;
+    background-color: #0a010a;  
+  }
+  .footer__company {
+    margin-left: -2rem;
+  }
+  
+  .footer__company > a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .footer__subscribe{
+    margin-right: 0rem;
+  }
+
+  .footer__form{
+    color: black;
+    font-size: small;
+    border-radius: 12px;
+    padding: 10px;
+    width: 10rem;
+    display: inline-block;
+    background-color: white;
+  }
+  .footer__form:focus{
+    border: transparent !important;
+  }
+  .footer__subscribe > h4{
+    font-size: 1.5rem;
+  }
+  .footer__contact {
+     margin-top: 5rem;
+  }
+  .footer__last{
+    font-size: 0.3rem;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    color: white;
+    width: 100vw;
+    height: 45vh;
+    background-color: #0a010a;
+    text-align: center;
+    font-family: 'Mate SC', serif; 
+    bottom: 0;
+    position: relative;
+  }
+  .footer__item {
+    display: inline-block;
+    /*justify-content: space-between;*/
+    font-family:'Baloo 2',cursive;
+    background-color: #0a010a;  
+  }
+  .footer__company {
+    margin-left: -2rem;
+  }
+  
+  .footer__company > a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .footer__subscribe{
+    margin-right: 0rem;
+  }
+
+  .footer__form{
+    color: black;
+    font-size: small;
+    border-radius: 12px;
+    padding: 10px;
+    width: 10rem;
+    display: inline-block;
+    background-color: white;
+  }
+  .footer__form:focus{
+    border: transparent !important;
+  }
+  .footer__subscribe > h4{
+    font-size: 1.5rem;
+  }
+  .footer__contact {
+     margin-top: 5rem;
+  }
+  .footer__last{
+    font-size: 0.3rem;
+  }
 }

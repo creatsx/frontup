@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Home.css";
 import app from "../../static/phone.png"
 import ScrollAnimation from "react-animate-on-scroll"
-import Mission from '../comp/Mission';
+import Purpose from '../comp/Purpose';
 import Contact from '../comp/Contact';
 
 
@@ -25,12 +25,12 @@ export default function Home() {
             </div>
             </ScrollAnimation>  
             <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
-            <div className="home__right">
+                <div className="home__right">
                   <img src={app} alt="app" /> 
-            </div>
+                </div>
             </ScrollAnimation>            
         </div>
-        <Mission />
+        <Purpose />
         <Contact />
         </div>
     )
