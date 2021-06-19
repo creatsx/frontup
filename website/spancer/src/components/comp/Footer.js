@@ -32,7 +32,7 @@ function Footer() {
                   <p>Central Park, New Delhi, 112028</p>
                   <p>spancerapp@spancer.com</p>
                  <p className="footer__copyright">Copyright © Spancer. All rights reserved. </p>
-                 <p className="footer__last">Designed and built with all the love in the Universe by <a href="https://instagram.com/xadhrit/">Adhrit</a></p>
+                 <p className="footer__last">Designed and built with all the love in the Universe by <a href="https://rd8.netlify.app/">Adhrit</a></p>
               </div>
             </div>
             </ScrollAnimation>
